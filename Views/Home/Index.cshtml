@@ -1,4 +1,4 @@
-﻿@model List<ApplicationUser>
+﻿@model List<UserListModel>
 @{
     
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -23,7 +23,7 @@
 
             <tbody>
 
-                @foreach(ApplicationUser applicationUser in Model)
+                @foreach(UserListModel applicationUser in Model)
                 {
                 
                     <tr>

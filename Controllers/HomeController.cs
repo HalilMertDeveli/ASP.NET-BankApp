@@ -10,7 +10,7 @@ namespace HMD.BankApp.Web.Controllers
         private readonly ILogger<HomeController> _logger;
         private readonly BankContext _context;
 
-        public HomeController(ILogger<HomeController> logger,BankContext context)
+        public HomeController(ILogger<HomeController> logger, BankContext context)
         {
             _logger = logger;
             _context = context;
@@ -18,10 +18,10 @@ namespace HMD.BankApp.Web.Controllers
 
         public IActionResult Index()
         {
-            return View(_context.ApplicationUserDbSet.ToList());
+            return View(_context.ApplicationUserDbSet.Select(x => new UserListModel() { Id = x.Id, Name = x.Name, SurName = x.SurName, }).ToList());
         }
 
-        
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

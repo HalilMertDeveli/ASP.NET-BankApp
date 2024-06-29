@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HMD.BankApp.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d222d109b79b7b4d5e4b7d856c3bf167e2bf8c87")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8dba511a3c078fbf6a21989e6b2a68fc156c0bb")]
 [assembly: System.Reflection.AssemblyProductAttribute("HMD.BankApp.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HMD.BankApp.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
