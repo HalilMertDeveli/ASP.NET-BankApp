@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\HMD.BankApp.Web.props" />
+</Project>
