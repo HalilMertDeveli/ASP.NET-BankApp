@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "22McgQTnJxI1DvGBWMOKOKef2a1yp+HZdgnGajCzFwo=",
+  "Hash": "a0L1RqZNtzBbsJklvOJqF3X22/ttRdE4LuZrEAfBxQw=",
   "Source": "HMD.BankApp.Web",
   "BasePath": "_content/HMD.BankApp.Web",
   "Mode": "Default",
@@ -72,25 +72,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
-    },
-    {
-      "Identity": "C:\\Users\\halil\\source\\repos\\database_programming_week_seven\\chapter_six\\HMD.BankApp\\HMD.BankApp.Web\\wwwroot\\css\\style.css",
-      "SourceId": "HMD.BankApp.Web",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\halil\\source\\repos\\database_programming_week_seven\\chapter_six\\HMD.BankApp\\HMD.BankApp.Web\\wwwroot\\",
-      "BasePath": "_content/HMD.BankApp.Web",
-      "RelativePath": "css/style.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
       "Identity": "C:\\Users\\halil\\source\\repos\\database_programming_week_seven\\chapter_six\\HMD.BankApp\\HMD.BankApp.Web\\wwwroot\\favicon.ico",

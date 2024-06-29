@@ -1,9 +1,12 @@
+using HMD.BankApp.Web.Data.Context;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<BankContext>(opt => opt.UseSqlServer("Server = localhost; database=BankDb; Trusted_Connection=True;TrustServerCertificate=True"));
 
 var app = builder.Build();
 
